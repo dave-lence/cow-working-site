@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #282828;
+    background-color: whitesmoke;
+}
+
+ul{
+   display: flex;
+   background-color: black;
+   padding: 25px;
+   margin-top: 0px;
+   color: #fff;
+   font-weight: 900;
+   font-size: 40px;
+   align-items: center;
+   gap: 10px;
+}
+
+li{
+    list-style: none;
+    
+}
+
+.icon{
+    width: 50px;
+    background-color: #252525;
+
+}
+.align-right{
+    background-color: black;
+    margin-left: auto;
+    width: 40px;
+}
+.hero{
+    padding: 0px 20px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+h1{
+    font-weight: lighter;
+}
+img{
+    width: 100%;
+    margin: 0;
+}
+.items{
+    position: relative;
+}
+.item-text{
+    padding: 0 20px;
+    display: flex;
+    gap: 10px;
+}
+button{
+    background-color: black;
+    color: orange;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: orange;
+    color:black;
+}
+.banner{
+    background-color: orange;
+    color: white;
+    font-weight: 900;
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+footer{
+    background-color: orange;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px;
+}
+.fixed{
+    background-color: orange;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    right:6px;
+}
+.fixed-img{
+    width: 40px;
+    margin: auto;
+    border-radius: 50%;
+}
